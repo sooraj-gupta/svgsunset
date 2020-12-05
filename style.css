@@ -1,0 +1,75 @@
+:root
+{
+	--sky: lightblue;
+	--sun: #f56950;
+
+}
+*
+{
+	transition: 0.0s;
+}
+#t1 {
+	fill: #222222dd;
+	stroke-width: 0;
+}
+
+
+body,html {
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	opacity: 0;
+	transition: 0.2s;
+}
+
+#p1 {
+	fill: white;
+	stroke-width: 0;
+}
+
+#mts {
+	fill: #000500;
+}
+
+.svg-container{
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: thin;
+}
+
+#mts2 {
+	fill: #001000;
+}
+
+#sea {
+	fill: #030e1a;
+}
+
+#beach {
+	fill: #2c1b04;
+}
+
+#mts3 {
+	fill: #000a00;
+}
+
+
+@keyframes mover
+{
+	0% {
+		transform: scale(1) translate( 99vw, 70vh );
+	}
+	100% {
+		transform: scale(1) translate( 0vw, 70vh);
+	}
+}
+#d1
+{
+	animation: mover 10s linear infinite;
+}
+
+.svg-container2 {
+	position: absolute
+}
